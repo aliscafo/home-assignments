@@ -142,7 +142,6 @@ def build(frame_sequence: pims.FramesSequence,
           progress: bool = True) -> CornerStorage:
     """
     Build corners for all frames of a frame sequence.
-
     :param frame_sequence: grayscale float32 frame sequence.
     :param progress: enable/disable building progress bar.
     :return: corners for all frames of given sequence.
